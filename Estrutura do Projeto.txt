@@ -1,0 +1,18 @@
+task-manager-api/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   ├── com/
+│   │   │   │   ├── company/
+│   │   │   │   │   ├── taskmanager/
+│   │   │   │   │   │   ├── controller/   # Controllers (Endpoints da API)
+│   │   │   │   │   │   ├── model/        # Modelos (Entidades JPA)
+│   │   │   │   │   │   ├── repository/   # Repositórios JPA
+│   │   │   │   │   │   ├── service/      # Lógica de negócios
+│   │   │   │   │   │   ├── config/       # Configurações (Swagger, etc.)
+│   │   ├── resources/
+│   │   │   ├── application.properties    # Configurações da aplicação
+│   │   │   ├── static/                   # Arquivos estáticos, se necessário
+│   │   │   ├── templates/                # Templates, se usar Thymeleaf
+├── pom.xml  # Dependências do Maven (Spring Boot, Swagger, etc.)
+├── README.md  # Documentação do projeto
